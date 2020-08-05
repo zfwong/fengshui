@@ -30,7 +30,7 @@
           <a class="dropdown-item" href="{{ route('setLocale', 'en') }}">English</a>
         </div>
       </li>
-      <!-- Authentication Links -->
+      <!-- Authentication Links this is the changes -->
       @guest
       <li class="nav-item"><a class="nav-link" href="{{ route('login') }}">{{ __('home.login') }}</a></li>
       <li class="nav-item"><a class="nav-link" href="{{ route('register') }}">{{ __('home.register') }}</a></li>
