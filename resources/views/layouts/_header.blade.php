@@ -26,8 +26,8 @@
           @endif
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarLocaleDropdown">
-          <a class="dropdown-item" href="{{ route('setLocale', 'zh-CN') }}">{{ __('home.chinese') }}</a>
-          <a class="dropdown-item" href="{{ route('setLocale', 'en') }}">{{ __('home.english') }}</a>
+          <!--<a class="dropdown-item" href="{{ route('setLocale', 'zh-CN') }}">{{ __('home.chinese') }}</a>-->
+          <a class="dropdown-item" href="{{ route('setLocale', 'en') }}">English</a>
         </div>
       </li>
       <!-- Authentication Links -->
